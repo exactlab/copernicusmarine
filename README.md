@@ -1,5 +1,16 @@
 # Copernicus Marine Service Toolbox Unofficial fork
 
+This is a vendored fork of `copernicusmarine`. The code was obtained through
+PyPI source package and minimal patches applied.
+
+Since the source package does not include the tests, we cannot guarantee the
+1:1 compatibility of this fork with upstream.
+
+## Changes wrt upstream
+
+* Python version relaxed to `^3.9`
+* Numpy version relaxed to "^2.0.0"
+
 <h1 align="center">Copernicus Marine Service Toolbox (CLI & Python)</h1>
 <div align="center">
   <a href="https://pypi.org/project/copernicusmarine/"><img src="https://img.shields.io/pypi/v/copernicusmarine.svg?style=flat-square" alt="PyPI" /></a>
